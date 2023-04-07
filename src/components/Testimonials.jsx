@@ -27,14 +27,15 @@ export default function Testimonials() {
         {!items 
             ? null 
             : items.map((item) => {
-                return <div className='card card-primary mb-2' key={item.id}>{item.name && <h2 className='card-header'>{item.name}</h2>}
+                return <div className='card card-primary mb-2' key={item.id}>
+                    {item.name && <h2 className='card-header'>{item.name}</h2>}
                     <div className='card-body'>
                         <h4>{item.title}</h4>
                         <p>{item.body}</p>
                     </div>
-                    {items.email && (<small className='card-footer'>
-                        {item.email}
-                    </small>)}
+                    {items.email && (
+                        <small className='card-footer'>{item.email}</small>
+                    )}
                 </div>})}
     </div>
   )
