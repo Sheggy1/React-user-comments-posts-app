@@ -2,7 +2,7 @@ React App with users, comments, posts working with JSON server and fetching data
 
 ![Screenshot_8](https://user-images.githubusercontent.com/43640476/236645807-8f2d20b3-0056-4ad2-a60b-329e859dd33d.png)
 ![Screenshot_9](https://user-images.githubusercontent.com/43640476/236645808-17d2ae20-bac3-4a11-82a9-6b428080dbf2.png)
-![Screenshot_7](https://user-images.githubusercontent.com/43640476/236645809-c9da85fa-5c53-4d07-bb91-d4b973172de9.png)
+
 
 
 # Getting Started with Create React App
